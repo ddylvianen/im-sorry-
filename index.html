@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        div{
+            background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGRycmZkemZxcXZ3eWppaXpzYXZyNW0wenE0eDh3YTU1MXV3bGRnZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5jT0jaNDsM6Ik7X9yq/giphy.gif');
+            background-size: fill;
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cont{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.21);
+            border-radius: 25px;
+            padding: 25px;
+
+        }
+        .rainbowText {
+            font-family:arial black;
+            font-size:40px;
+            background-image: 
+              linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;  
+            animation: move 35s linear infinite;
+        }
+
+        .rainbowText h1 {
+            font-size: 100px;
+            margin: 0 auto 50px;
+        }
+
+        .rainbowText p
+        {
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        @keyframes move {
+            to {
+                background-position: 4500vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <main class="cont">
+            <section class="rainbowText">
+                <h1>Happy belated birthdayyyy!!!</h1>
+                <p>sorry that its a day late. it should not have happend but it did :(.. <br><br>i hope you can forgive me :(</p>
+            </section>
+        </main>
+
+    </div>
+</body>
+</html>
